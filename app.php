@@ -7,9 +7,9 @@ if ($age >= 0 && $age <= 14) {   // 0-14 = Çocuk
     echo "genc";
 } elseif ($age > 24  && $age <= 64) { // 25-64 = Yetişkin
     echo "yetiskin";
-} else ($age > 64 ) { // 65+ = Yaşlı
+} else { // 65+ = Yaşlı
     echo "yaslı";
-} 
+}
   
  //age degiskeni 29 oldugu icin ekran cıktısı 'yetiskin' olacak.
   
